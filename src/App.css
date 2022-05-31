@@ -1,0 +1,142 @@
+
+:root{
+  --black:#000000;;
+
+--blue:#1C55C9;
+--light:#FAFAFA;
+--white:#FFFFFF;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: var(--black);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#home{
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--black);
+}
+.title-heading{
+  font-size: 4rem;
+  margin-bottom: 1.3rem;
+}
+.title-body{
+  font-size: 2rem;
+}
+.title-image{
+  height: 350px;
+  width: 350px;
+  position: relative;
+  
+}
+.home-image{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.title-btn{
+  font-size: 1.5rem;
+}
+#Comment{
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--blue);
+
+}
+.comment-heading{
+  font-size: 4rem;
+  width: 450px;
+}
+#light-container{
+  width: 380px;
+  height: 200px;
+  background-color:white;
+  border-radius: 20px;
+  z-index:1;
+  position: absolute;
+}
+#comment-container{
+  background-color: transparent;
+  position: absolute;
+  z-index: -2;
+}
+
+.comment-para{
+  border-radius: 12px;
+  width: 400px;
+  background-color: var(--black);
+  position: relative;
+  z-index: 12;
+
+}
+#comment1{
+  transform: translateX(-100px);
+}
+#comment2{
+  transform: translateX(100px);
+}
+#big-container{
+  position: relative;
+  min-height: 100px;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+@media screen and (max-width:700px) {
+  #comment2,#comment1 {
+    transform: translateX(0px);
+  }
+}
+@media (min-width: 700px) {
+  #comment2{
+    transform: translateX(150px);
+  }
+  #comment1{
+    transform: translateX(-150px);
+  }
+
+}
+#companies{
+  background-color: var(--white);
+  min-height: 100vh;
+  width: 100%;
+}
+.comapnyImage{
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+}
