@@ -7,7 +7,9 @@ import Home from './components/hom-components/home'
 import Coment from './components/coment-compenents/Coment'
 import Sponsors from './components/Companies_components/Companies'
 import Social from './components/social-components/Social_components';
+import Deal from './components/Deal-component/Deal';
 import Footer from './components/Footer/Footer'
+
 const App = () => <>
 
     <Navbar />
@@ -15,6 +17,7 @@ const App = () => <>
     <Coment />
     <Sponsors />
     <Social />
+    <Deal/>
     <Footer/>
 </>
 

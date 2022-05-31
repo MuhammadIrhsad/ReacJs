@@ -150,6 +150,11 @@
   width: 80vw;
   height: 20vh;
 }
+#Deal{
+  min-height: 100vh;
+  width: 100%;
+  background-color: var(--black);
+}
 #footer-email{
   height: 80vh;
   width: 100%;
@@ -162,4 +167,7 @@
 p{
   margin-left: 10px;
   margin-right: 5px;
+}
+button{
+  font-size: 25px;
 }
