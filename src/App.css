@@ -140,3 +140,26 @@
   width: 80vw;
   height: 80vh;
 }
+#links{
+  background-color: var(--light);
+  min-height: 100vh;
+  width: 100%;
+}
+.linksImage{
+  position: relative;
+  width: 80vw;
+  height: 20vh;
+}
+#footer-email{
+  height: 80vh;
+  width: 100%;
+  background-color:var(--blue);
+}
+#footer-links{
+  height: 8vh;
+  width: 100%;
+}
+p{
+  margin-left: 10px;
+  margin-right: 5px;
+}
