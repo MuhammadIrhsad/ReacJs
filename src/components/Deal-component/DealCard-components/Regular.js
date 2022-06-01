@@ -1,6 +1,6 @@
 const Regular = () => {
     return <>
-        <div className=' col mx-3 text-light card text-dark bg-primary mb-3 ' >
+        <div className=' col mx-3 px-4 text-light card text-dark bg-primary mb-3 ' >
             <div className='card-header text-light'><h1>Regular</h1>Regular packet for all</div>
             <div className='card-body'>
                 <h5 className='card-title text-light '>$15/month</h5>

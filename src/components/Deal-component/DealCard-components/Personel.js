@@ -1,6 +1,6 @@
 const Personel = () => {
     return <>
-        <div className=' col mx-3 card text-dark bg-light mb-3 ' >
+        <div className=' col mx-3 px-4 card text-dark bg-light mb-3 ' >
             <div className='card-header'><h1>Personel</h1>Special first packet for all</div>
             <div className='card-body'>
                 <h5 className='card-title '>$8/month</h5>

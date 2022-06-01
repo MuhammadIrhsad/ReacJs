@@ -6,6 +6,7 @@
 --light:#FAFAFA;
 --white:#FFFFFF;
 box-sizing: border-box;
+overflow-x:hidden;
 }
 .App {
   text-align: center;
@@ -44,6 +45,9 @@ box-sizing: border-box;
   to {
     transform: rotate(360deg);
   }
+}
+nav{
+  width: 100vw;
 }
 #home{
   min-height: 100vh;
@@ -133,7 +137,8 @@ box-sizing: border-box;
 }
 #companies{
   background-color: var(--white);
-  min-height: 100vh;
+  min-height: 60vh;
+  max-height: 100vh;
   width:100vw;
 }
 .comapnyImage{

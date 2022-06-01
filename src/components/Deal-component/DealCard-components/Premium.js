@@ -1,6 +1,6 @@
 const Premium = () => {
     return <>
-        <div className=' col mx-3 card text-dark bg-light mb-3 ' >
+        <div className=' col mx-3 px-4 card text-dark bg-light mb-3 ' >
             <div className='card-header'><h1>Perimum</h1>Premium packet for all</div>
             <div className='card-body'>
                 <h5 className='card-title '>$30/month</h5>
